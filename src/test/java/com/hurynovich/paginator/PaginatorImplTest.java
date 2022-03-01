@@ -1,5 +1,7 @@
 package com.hurynovich.paginator;
 
+import com.hurynovich.paginator.impl.PaginationParamsImpl;
+import com.hurynovich.paginator.impl.PaginatorImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

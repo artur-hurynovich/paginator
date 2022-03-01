@@ -1,8 +1,10 @@
-package com.hurynovich.paginator;
+package com.hurynovich.paginator.impl;
+
+import com.hurynovich.paginator.PaginationParams;
 
 import java.util.Objects;
 
-class PaginationParamsImpl implements PaginationParams {
+public class PaginationParamsImpl implements PaginationParams {
 
     private final Integer offset;
 

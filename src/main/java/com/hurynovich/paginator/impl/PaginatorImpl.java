@@ -1,8 +1,12 @@
-package com.hurynovich.paginator;
+package com.hurynovich.paginator.impl;
+
+import com.hurynovich.paginator.GenericPage;
+import com.hurynovich.paginator.PaginationParams;
+import com.hurynovich.paginator.Paginator;
 
 import java.util.List;
 
-class PaginatorImpl implements Paginator {
+public class PaginatorImpl implements Paginator {
 
     @Override
     public PaginationParams buildParams(final Integer pageNumber,

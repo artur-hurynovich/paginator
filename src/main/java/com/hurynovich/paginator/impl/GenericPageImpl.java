@@ -1,8 +1,11 @@
-package com.hurynovich.paginator;
+package com.hurynovich.paginator.impl;
+
+import com.hurynovich.paginator.GenericPage;
+import com.hurynovich.paginator.GenericPageBuilder;
 
 import java.util.List;
 
-class GenericPageImpl<T> implements GenericPage<T> {
+public class GenericPageImpl<T> implements GenericPage<T> {
 
     private final List<T> elements;
 
